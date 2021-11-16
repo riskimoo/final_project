@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar is-success is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <h1 class="navbar-brand"></h1>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#" class="navbar-item">
+            <strong>Home</strong>
+          </a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about"> About </a>
+
+          <a class="navbar-item" href="#portfolio"> Portfolio </a>
+
+          <a class="navbar-item" href="#blog"> Blog </a>
+
+          <a class="navbar-item" href="#team"> Team </a>
+
+          <a class="navbar-item" href="#contact"> Contact </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero is-success is-fullheight is-fullheight-with-navbar">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1 has-text-centered">Muhammad Rizki Pratomo</h1>
+          <h2 class="subtitle is-3 has-text-centered">
+            Full Stack Web Developer
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-centered">Tentang Saya</h3>
+        <h4 class="subtitle is-5 has-text-centered">
+          Specialist Django Web Framework
+        </h4>
+        <div class="container">
+          <p class="has-text-centered">
+            Hello, Saya Muhammad Rizki Pratomo atau biasa dipanggil rizki. Saya
+            merupakan Fullstack Web Developer yang telah berkerja selama 1
+            tahun. Saya merupakan lulusan Teknik Elektro dari Universitas
+            Tanjungpura. Saya menyukai tantangan dalam pemecahan pada
+            masalah-masalah yang berhubungan dengan Web Developer. Saya
+            mempunyai pengetahuan tentang bahasa pemrograman seperti
+            <strong> Python, Javascript, dan Ruby. </strong> Pada Frontend saya
+            lebih enjoy bekerja dengan framework seperti
+            <strong> React dan Vue</strong>. Pada Backend saya lebih enjoy
+            bekerja dengan framework seperti
+            <strong>Django, Flask, dan Ruby on Rails.</strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content skills-content">
+          <h3 class="title is-4">Web Framework Skill</h3>
+          <div class="content">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>React.js:</strong>
+                    <br />
+                    <progress
+                      class="progress is-primary"
+                      value="70"
+                      max="100"
+                    ></progress>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Vue.js:</strong>
+                    <br />
+                    <progress
+                      class="progress is-primary"
+                      value="90"
+                      max="100"
+                    ></progress>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Django:</strong>
+                    <br />
+                    <progress
+                      class="progress is-primary"
+                      value="95"
+                      max="100"
+                    ></progress>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Flask:</strong>
+                    <br />
+                    <progress
+                      class="progress is-primary"
+                      value="80"
+                      max="100"
+                    ></progress>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Ruby on Rails:</strong>
+                    <br />
+                    <progress
+                      class="progress is-primary"
+                      value="66"
+                      max="100"
+                    ></progress>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Portfolio</h3>
+          <h4 class="subtitle is-5">My latest works</h4>
+        </div>
+        <br />
+
+        <div class="container">
+          <div class="columns">
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Customer Relationship Management</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image is-5by4">
+                    <img src="image/Portfolio/CRM_Thumbnail.jpg" alt="" />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a id="customer" class="card-footer-item">Preview</a>
+                </footer>
+              </div>
+            </div>
+
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Learning Management System</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image is-5by4">
+                    <img src="image/Portfolio/LMS_Thumbnail.png" alt="" />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a id="learning" class="card-footer-item">Preview</a>
+                </footer>
+              </div>
+            </div>
+
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Shopify Custom</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image is-5by4">
+                    <img
+                      src="image/Portfolio/Shopify_Thumbnail.jpg"
+                      alt="Admin template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a id="shopify" class="card-footer-item">Preview</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Blog</h3>
+        </div>
+        <br />
+
+        <div class="container">
+          <div class="columns">
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="image/blog/MVC.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="section-head">
+                    <h3 class="title is-5">Model View Controller (MVC)</h3>
+                  </div>
+                  <br />
+                  <div class="content">
+                    <p>
+                      Model View Controller adalah sebuah pola desain arsitektur
+                      dalam sistem pengembangan website yang terdiri dari tiga
+                      bagian, yaitu Model bagian yang mengelola dan berhubungan
+                      langsung dengan database, View bagian yang akan menyajikan
+                      tampilan informasi kepada pengguna, dan Controller bagian
+                      yang menghubungkan model dan view dalam setiap proses
+                      request dari user.
+                    </p>
+                  </div>
+
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="image/profile.webp" alt="Placeholder image" />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">Rizki Pratomo</p>
+                      <p class="subtitle is-6">@riskimoo</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <time>1:09 PM - 1 Jan 2025</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="image/blog/MTV.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="section-head">
+                    <h3 class="title is-5">Model View Template (MVT)</h3>
+                  </div>
+                  <br />
+                  <div class="content">
+                    <p>
+                      Model View Template adalah sebuah pola desain arsitektur
+                      dalam sistem pengembangan website yang terdiri dari tiga
+                      bagian, yaitu Model bagian yang mengelola dan berhubungan
+                      langsung dengan database, View bagian yang menghubungkan
+                      model dan template dalam setiap proses request dari user,
+                      dan Template merupakan tempan penyimpanan segala jenis
+                      file statis dan dinamis.
+                    </p>
+                  </div>
+
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="image/profile.webp" alt="Placeholder image" />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">Rizki Pratomo</p>
+                      <p class="subtitle is-6">@riskimoo</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <time>3:09 PM - 1 Jan 2024</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="image/blog/HTMX.png" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="section-head">
+                    <h3 class="title is-5">htmx</h3>
+                  </div>
+                  <br />
+                  <div class="content">
+                    <p>
+                      HTMX dapat memberikan akses menggunakan AJAX, transisi
+                      CSS, WebSockets, dan Server Sent Event dengan menggunakan
+                      attribut. Jadi anda dapat membangun modern user interface
+                      dengan simplicty dan power of hypertext.
+                    </p>
+                  </div>
+
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="image/profile.webp" alt="Placeholder image" />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">Rizki Pratomo</p>
+                      <p class="subtitle is-6">@riskimoo</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <time>5:09 PM - 01 Jan 2022</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="image/blog/bulma.png" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="section-head">
+                    <h3 class="title is-5">Bulma</h3>
+                  </div>
+                  <br />
+                  <div class="content">
+                    <p>
+                      Bulma di sini adalah CSS Framework Modern berbasis Flexbox
+                      Open Source, Responsive untuk Mobile Device dan Modular
+                      kita dapat import apa yang kita butuhkan dengan
+                      menggunakan SASS.
+                    </p>
+                  </div>
+
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="image/profile.webp" alt="Placeholder image" />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">Rizki Pratomo</p>
+                      <p class="subtitle is-6">@riskimoo</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <time>11:09 PM - 1 Jan 2023</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title is-2">Team</h3>
+        </div>
+
+        <br />
+
+        <div class="columns is-multiline">
+          <div class="column is-4-desktop is-6">
+            <div class="card">
+              <figure class="image is-5by4">
+                <img src="image/team/Darlene.jfif" />
+              </figure>
+              <div class="card-content">
+                <h4>Darlene Alderson</h4>
+                <p class="title is-5">Frontend Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-desktop is-6">
+            <div class="card">
+              <figure class="image is-5by4">
+                <img src="image/team/Elliot.jfif" />
+              </figure>
+              <div class="card-content">
+                <h4>Elliot Alderson</h4>
+                <p class="title is-5">Backend Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4-desktop is-6">
+            <div class="card">
+              <figure class="image is-5by4">
+                <img src="image/team/Tyrell.jfif" />
+              </figure>
+              <div class="card-content">
+                <h4>Tyrell Wellick</h4>
+                <p class="title is-5">Fullstack Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Contact</h3>
+        </div>
+
+        <br />
+
+        <div class="field">
+          <label class="label">Nama</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Text input" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="Email input" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal modal-bis">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img src="image/Portfolio/CRM_Preview.jpg" alt="" />
+        </p>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div class="modal modal-bis1">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img src="image/Portfolio/LMS_Preview.png" alt="" />
+        </p>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div class="modal modal-bis2">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image is-4by3">
+          <img src="image/Portfolio/Shopify_Preview.jpg" alt="" />
+        </p>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  </body>
+</html>
+
+<script src="js/java.js"></script>
